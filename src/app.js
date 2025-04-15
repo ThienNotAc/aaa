@@ -14,7 +14,7 @@ app.use(express.static('public'));
 //Browser display
 app.get('/', (req, res) => {
     res.send('Server is running!');
-  });
+});
 // Routes
 
 app.use('/user', userRouter);
